@@ -43,7 +43,9 @@ button {
   border-radius: 5px;
   color: white;
 }
-
+#tituloPrincipal{
+  text-align: center;
+}
 #header {
   padding: 10px;
   color: var(--header-color) ;
@@ -62,6 +64,14 @@ button {
   width: 100%;
   display: flex;
   color: var(--color-weekdays) ;
+}
+.wekd{
+
+	color: black;
+	text-align: center;
+	border:2px solid rgb(11, 11, 59);
+	border-radius: 25px;
+	
 }
 #weekdays div {
   width: 100px;

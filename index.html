@@ -9,7 +9,7 @@
   <link href="./css/style.css" rel="stylesheet">
   <link href="./css/darkMode.css" rel="stylesheet">
 
-  <title>Calendario</title>
+  <title>Calendario Letivo</title>
 </head>
   <!-- dark mode -->
   
@@ -21,7 +21,9 @@
 <!-- -------- -->
 
 <body>
+
   <div id="container">
+    <h2 id = tituloPrincipal>CALENDARIO LETIVO IFNMG</h2>
       <div id="header">
         <div id="monthDisplay"></div>
 
@@ -33,13 +35,13 @@
       </div>
 
       <div id="weekdays">
-        <div>Domingo</div>
-        <div>Segunda-feira</div>
-        <div>Terça-feira</div>
-        <div>Quarta-feira</div>
-        <div>Quinta-feira</div>
-        <div>Sexta-feira</div>
-        <div>Sábado</div>
+        <div class='wekd'>Domingo</div>
+        <div class='wekd'>Segunda-feira</div>
+        <div class='wekd'>Terça-feira</div>
+        <div class='wekd'>Quarta-feira</div>
+        <div class='wekd'>Quinta-feira</div>
+        <div class='wekd'>Sexta-feira</div>
+        <div class='wekd'>Sábado</div>
       </div>
 
 
@@ -50,16 +52,16 @@
   </div>
 
   <div id="newEventModal">
-    <h2>New Evente</h2>
+    <h2>Novo sábado letivo</h2>
 
-    <input id="eventTitleInput" placeholder="Event Title"/>
+    <input id="eventTitleInput" placeholder="Aviso"/>
 
     <button id="saveButton"> Salvar</button>
     <button id="cancelButton">Cancelar</button>
   </div>
 
   <div id="deleteEventModal">
-    <h2>Evento</h2>
+    <h2>Sábado letivo</h2>
 
     <div id="eventText"></div><br>
 
